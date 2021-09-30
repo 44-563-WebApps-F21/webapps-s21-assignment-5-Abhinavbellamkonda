@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <title>The css page with the Bootstrap</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +19,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light" >
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="animals.html"><b>Interesting Animals</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,11 +36,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="train.html">Train Page</a>
                     </li>
-                    <li class ="nav-item">
-                        <a class="nav-link active" aria-current="page" href="animals.html" >Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="animals.html">Home</a>
                     </li>
-                        
-                       
+
+
                 </ul>
             </div>
         </div>
@@ -82,6 +84,7 @@
 
     </div>
 
+    <div class="container"></div>
     <div class="container">
 
         <img src="bengal tiger.jpg" class="img-fluid" width="350" alt="Tiger">
@@ -94,7 +97,8 @@
         <img src="Eastern Wolf.jpg" class="img-thumbnail" width="300" alt="Wolf">
         <img src="liger.jpg" class="img-thumbnail" width="250">
     </div>
-    <hr>
+    
+
     <table class="table table-hover table-bordered" border="2">
         <caption><b>Table</b></caption>
         <thead style="background-color:#dd9b0c; text-align: center;">
@@ -196,6 +200,26 @@
             </ul>
         </div>
         <br>
+        <br>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">&nbsp;Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailAssistance">
+                <div id="emailAssistance" class="form-text">&nbsp;Your email is safe with us.</div>
+            </div>
+            <div class="mb-3">
+                <label for="Animal" class="form-label">&nbsp;Enter your animal</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">&nbsp;Sign up for newsletter? </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+<br>
+<br>
+
 </body>
 
 
